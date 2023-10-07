@@ -7,6 +7,7 @@ CIFAR10数据集共有60000个样本，每个样本都是一张32*32像素的RGB
 
 input: torch.Size([b,3,32,32]) b=BatchSize
 output: torch.Size([b,10])
+<br>
 
 网络结构：
 1.卷积层
@@ -15,6 +16,7 @@ output: torch.Size([b,10])
 4.avg池化层
 5.线性层
 6.线性层
+<br>
 激活函数均为Relu
 
 
